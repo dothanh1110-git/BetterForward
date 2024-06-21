@@ -522,7 +522,7 @@ class TGBot:
             self.menu(message)
         else:
             self.bot.send_message(message.chat.id, _("This command is only available to admin users.") + "\n" +
-                                  "Powered by [BetterForward](https://github.com/SideCloudGroup/BetterForward).",
+                                  "Powered by [Telegram](https://t.me/sharethapcam_1110).",
                                   parse_mode="Markdown",
                                   disable_web_page_preview=True)
 
